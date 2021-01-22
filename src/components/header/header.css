@@ -1,8 +1,47 @@
 .headerContainer {
   width: 100vw;
   height: 70px;
-  background-color: red;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.headerContainer a {
+  font: 13px arial, sans-serif;
+  color: rgb(46, 46, 46);
+  cursor: pointer;
+}
+.headerContainer a:hover {
+  text-decoration: underline solid rgb(46, 46, 46);
+}
+.userIcon {
+  background-image: url('../../assets/Akali.jpeg');
+  background-size: cover;
+  background-position: bottom;
+  border-radius: 50%;
+  background-color: white;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  right: 30px;
+}
+
+#gmail {
+  position: absolute;
+  right: 210px;
+}
+
+#img {
+  position: absolute;
+  right: 135px;
+  cursor: pointer;
+}
+
+#gridIcon {
+  position: absolute;
+  right: 90px;
+  color: rgb(115, 115, 115);
+  cursor: pointer;
+}
+#gridIcon:hover {
+  color: rgb(46, 46, 46);
 }
