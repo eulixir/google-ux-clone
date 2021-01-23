@@ -1,5 +1,4 @@
 import React from 'react';
-import Akali from '../../assets/Akali.jpeg';
 import { CgMenuGridR } from 'react-icons/cg';
 
 import './header.css';
