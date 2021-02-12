@@ -1,29 +1,8 @@
-.logoContainer span {
-  font: 600 90px 'Product Sans', sans-serif;
-}
 #e {
   font: 600 115px 'Josefin Sans', sans-serif;
 }
 
-.searchContainer {
-  margin-top: 25px;
-  width: 482px;
-  height: 44px;
-  border: 1px solid rgb(214, 214, 214);
-  border-radius: 20px;
-  outline: none;
-  display: grid;
-  grid-template-columns: 10% 70% 10% 10%;
-}
-.searchContainer:hover {
-  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.37);
-  -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.37);
-  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.37);
-}
 .searchContainer:focus {
-  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.37);
-  -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.37);
-  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.37);
 }
 .searchIconContainer {
   display: flex;

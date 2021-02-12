@@ -2,12 +2,12 @@ import React from 'react';
 import './body.css';
 import { IoIosSearch } from 'react-icons/io';
 import { FaKeyboard } from 'react-icons/fa';
-import { BodyContainer } from './body';
+import * as S from './body';
 
 export default function Body() {
   return (
-    <BodyContainer>
-      <div className="logoContainer">
+    <S.BodyContainer>
+      <S.LogoContainer>
         <span style={{ color: '#4285f4' }}>G</span>
         <span style={{ color: '#ea4335' }}>o</span>
         <span style={{ color: '#fbbc05' }}>o</span>
@@ -16,8 +16,8 @@ export default function Body() {
         <span id="e" style={{ color: '#ea4335' }}>
           e
         </span>
-      </div>
-      <div className="searchContainer">
+      </S.LogoContainer>
+      <S.SearchContainer>
         <div className="searchIconContainer">
           <IoIosSearch id="search" size={20} />
         </div>
@@ -44,7 +44,7 @@ export default function Body() {
             ></path>
           </svg>
         </div>
-      </div>
+      </S.SearchContainer>
       <div className="buttonsContainer">
         <button>Pesquisa Google</button>
         <button>Estou com sorte</button>
@@ -54,6 +54,6 @@ export default function Body() {
           Disponibilizado pelo Google em: <span>English</span>
         </span>
       </div>
-    </BodyContainer>
+    </S.BodyContainer>
   );
 }
