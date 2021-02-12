@@ -2,17 +2,7 @@
   font: 600 90px 'Product Sans', sans-serif;
 }
 #e {
-  font: 600 100px 'Josefin Sans', sans-serif;
-}
-
-.bodyContainer {
-  padding-bottom: 71px;
-  width: 100vw;
-  height: 75vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  font: 600 115px 'Josefin Sans', sans-serif;
 }
 
 .searchContainer {

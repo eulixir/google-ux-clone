@@ -2,10 +2,11 @@ import React from 'react';
 import './body.css';
 import { IoIosSearch } from 'react-icons/io';
 import { FaKeyboard } from 'react-icons/fa';
+import { BodyContainer } from './body';
 
 export default function Body() {
   return (
-    <div className="bodyContainer">
+    <BodyContainer>
       <div className="logoContainer">
         <span style={{ color: '#4285f4' }}>G</span>
         <span style={{ color: '#ea4335' }}>o</span>
@@ -53,6 +54,6 @@ export default function Body() {
           Disponibilizado pelo Google em: <span>English</span>
         </span>
       </div>
-    </div>
+    </BodyContainer>
   );
 }
