@@ -9,6 +9,7 @@ export const HeaderContainer = styled.div`
   font: 13px arial, sans-serif;
   color: rgb(46, 46, 46);
   cursor: pointer;
+  position: relative;
 `;
 
 export const UserIcon = styled.div`

@@ -3,14 +3,15 @@ import Header from './components/header';
 import Body from './components/body';
 import Footer from './components/footer';
 import './global.css';
+import * as S from './Global';
 
 function App() {
   return (
-    <div className="App">
+    <S.App>
       <Header />
       <Body />
       <Footer />
-    </div>
+    </S.App>
   );
 }
 
