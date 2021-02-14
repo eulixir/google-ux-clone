@@ -1,6 +1,6 @@
 import styled, { createGlobalStyle } from 'styled-components';
 
-export default createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
 
   * {
     margin: 0;
@@ -13,6 +13,4 @@ export const App = styled.div`
   overflow: hidden;
 `;
 
-// injectGlobal`
-
-// `;
+export default GlobalStyle;

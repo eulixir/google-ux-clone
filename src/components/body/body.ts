@@ -57,7 +57,6 @@ export const InputContainer = styled.input`
   width: 100%;
   height: 95%;
   border: none;
-  border-bottom: 1px solid rgb(214, 214, 214);
   outline: none;
   font-size: 16px;
 `;

@@ -2,14 +2,14 @@ import styled from 'styled-components';
 
 export const HeaderContainer = styled.div`
   width: 100vw;
-  height: 70px;
-  display: flex;
+  height: 40px;
+  display: grid;
   justify-content: center;
   align-items: center;
   font: 13px arial, sans-serif;
   color: rgb(46, 46, 46);
   cursor: pointer;
-  position: relative;
+  background-color: aliceblue;
 `;
 
 export const UserIcon = styled.div`
