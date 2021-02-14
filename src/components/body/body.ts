@@ -58,6 +58,7 @@ export const InputContainer = styled.input`
   border: none;
   outline: none;
   font-size: 16px;
+  color: ${(props) => props.theme.colors.text};
   background: ${(props) => props.theme.colors.background};
 `;
 export const KeyboardContainer = styled.div`
@@ -88,10 +89,10 @@ export const ButtonsContainer = styled.div`
   margin-top: 18px;
 
   button {
-    color: rgb(51, 51, 51);
+    color: ${(props) => props.theme.colors.text};
     height: 36px;
     margin: 11px 4px;
-    background-color: #f8f8fa;
+    background: ${(props) => props.theme.colors.button};
     border: 1px solid #f8f8fa;
     font-family: arial, sans-serif;
     font-size: 14px;
@@ -115,13 +116,14 @@ export const TextContainer = styled.span`
   font-family: arial, sans-serif;
   font-size: small;
   margin-top: 5px;
+  color: ${(props) => props.theme.colors.text};
 `;
 export const TextContainerSpan = styled.span`
-  color: rgb(0, 0, 196);
+  color: ${(props) => props.theme.colors.link};
   cursor: pointer;
 
   &:hover {
-    color: blue;
-    text-decoration: underline solid blue;
+    color: ${(props) => props.theme.colors.link};
+    text-decoration: underline solid ${(props) => props.theme.colors.link};
   }
 `;

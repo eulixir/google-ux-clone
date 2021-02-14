@@ -10,7 +10,7 @@ export const FooterContainer = styled.div`
 export const RegionContainer = styled.div`
   font-family: arial, sans-serif;
   font-size: 15px;
-  color: rgba(0, 0, 0, 0.486);
+  color: #9c9c9c;
   border-top: 1px solid rgba(0, 0, 0, 0.116);
   border-bottom: 1px solid rgba(0, 0, 0, 0.116);
   width: 100vw;
@@ -22,14 +22,14 @@ export const RegionContainer = styled.div`
 
 export const PolicesContainer = styled.div`
   display: grid;
-  grid-template-columns: 30% 30% 40%;
+  grid-template-columns: 30% 40% 30%;
 `;
 
 export const PolicesContainerOne = styled.div`
   width: 100vw;
   font-family: arial, sans-serif;
   font-size: 15px;
-  color: rgba(0, 0, 0, 0.651);
+  color: ${(props) => props.theme.colors.text};
   display: flex;
 `;
 export const FooterSpace = styled.div`
@@ -44,7 +44,7 @@ export const ContainerSpan = styled.span`
 export const PolicesContainerTwo = styled.div`
   font-family: arial, sans-serif;
   font-size: 15px;
-  color: rgba(0, 0, 0, 0.651);
+  color: ${(props) => props.theme.colors.text};
   display: flex;
   align-items: right;
 `;

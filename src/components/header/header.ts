@@ -10,7 +10,7 @@ export const HeaderContainer = styled.div`
   align-items: center;
   font: 13px arial, sans-serif;
   color: rgb(46, 46, 46);
-  background: ${(props) => props.theme.colors.secondary};
+  /* background: ${(props) => props.theme.colors.secondary}; */
 `;
 export const SwitchContainer = styled.div`
   width: 100%;
@@ -42,12 +42,14 @@ export const UserIcon = styled.div`
 `;
 export const Gmail = styled.a`
   cursor: pointer;
+  color: ${(props) => props.theme.colors.text};
   &:hover {
     text-decoration: underline solid rgb(46, 46, 46);
   }
 `;
 
 export const Img = styled.a`
+  color: ${(props) => props.theme.colors.text};
   cursor: pointer;
   &:hover {
     text-decoration: underline solid rgb(46, 46, 46);

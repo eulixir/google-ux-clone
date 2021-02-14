@@ -6,5 +6,7 @@ export default {
     secondary: '#fff',
     background: '#fff',
     text: '#333',
+    link: '#0000c4',
+    button: '#f8f8fa',
   },
 };
