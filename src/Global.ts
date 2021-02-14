@@ -12,13 +12,11 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #d3d3d3;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background: ${(props) => props.theme.colors.background};
   }
 
-`;
-
-export const App = styled.div`
-  /* overflow: hidden; */
 `;
 
 export default GlobalStyle;

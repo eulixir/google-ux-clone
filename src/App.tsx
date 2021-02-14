@@ -5,15 +5,17 @@ import Footer from './components/footer';
 import './global.css';
 import * as S from './Global';
 import GlobalStyle from './Global';
+import { ThemeProvider } from 'styled-components';
+import light from './styles/themes/light';
 
 function App() {
   return (
-    <S.App>
+    <ThemeProvider theme={light}>
       <GlobalStyle />
       <Header />
       <Body />
       <Footer />
-    </S.App>
+    </ThemeProvider>
   );
 }
 

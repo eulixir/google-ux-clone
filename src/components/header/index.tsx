@@ -1,11 +1,24 @@
 import React from 'react';
 import { CgMenuGridO } from 'react-icons/cg';
 import * as S from './header';
+import Switch from 'react-switch';
 
 export default function Header() {
   return (
     <S.HeaderContainer>
-      <S.SwitchContainer>dsdsds</S.SwitchContainer>
+      <S.SwitchContainer>
+        {/* <Switch
+          onChange={ }
+          checked={false}
+          checkedIcon={false}
+          uncheckedIcon={false}
+          height={10}
+          width={40}
+          handleDiameter={20}
+
+
+        ></Switch> */}
+      </S.SwitchContainer>
       <S.SpaceContainer></S.SpaceContainer>
       <S.GoogleItens>
         <S.Gmail id="gmail">Gmail</S.Gmail>

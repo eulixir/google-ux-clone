@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const BodyContainer = styled.div`
   width: 100vw;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,6 +58,7 @@ export const InputContainer = styled.input`
   border: none;
   outline: none;
   font-size: 16px;
+  background: ${(props) => props.theme.colors.background};
 `;
 export const KeyboardContainer = styled.div`
   width: 100%;

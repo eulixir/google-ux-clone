@@ -5,7 +5,7 @@ export const FooterContainer = styled.div`
   position: absolute;
   bottom: 0;
   height: 10vh;
-  background-color: #f2f2f2;
+  background: ${(props) => props.theme.colors.primary};
 `;
 export const RegionContainer = styled.div`
   font-family: arial, sans-serif;

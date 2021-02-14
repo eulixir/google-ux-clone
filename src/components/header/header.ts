@@ -10,6 +10,7 @@ export const HeaderContainer = styled.div`
   align-items: center;
   font: 13px arial, sans-serif;
   color: rgb(46, 46, 46);
+  background: ${(props) => props.theme.colors.secondary};
 `;
 export const SwitchContainer = styled.div`
   width: 100%;
@@ -63,6 +64,6 @@ export const GridIcon = styled.div`
   border-radius: 50%;
   cursor: pointer;
   &:hover {
-    background: rgb(46, 46, 46);
+    background: #d3d3d3;
   }
 `;

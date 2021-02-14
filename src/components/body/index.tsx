@@ -22,9 +22,7 @@ export default function Body() {
             <IoIosSearch id="search" size={20} />
           </S.Search>
         </S.SearchIconContainer>
-        <div className="inputTextContainer">
-          <S.InputContainer type="text" />
-        </div>
+        <S.InputContainer type="text" />
         <S.KeyboardContainer>
           <S.Keyboard>
             <FaKeyboard id="keyboard" size="20" />
