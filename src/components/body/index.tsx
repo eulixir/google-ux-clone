@@ -18,15 +18,15 @@ export default function Body() {
         </span>
       </S.LogoContainer>
       <S.SearchContainer>
-        <div className="searchIconContainer">
+        <S.SearchIconContainer>
           <IoIosSearch id="search" size={20} />
-        </div>
+        </S.SearchIconContainer>
         <div className="inputTextContainer">
           <input type="text" />
         </div>
-        <div className="keyboardContainer">
+        <S.KeyboardContainer>
           <FaKeyboard id="keyboard" size="20" />
-        </div>
+        </S.KeyboardContainer>
         <div className="micContainer">
           <svg>
             <path

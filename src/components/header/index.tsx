@@ -1,15 +1,16 @@
 import React from 'react';
 import { CgMenuGridR } from 'react-icons/cg';
-
-import './header.css';
+import * as S from './header';
 
 export default function Header() {
   return (
-    <div className="headerContainer">
-      <a id="gmail">Gmail</a>
-      <a id="img">Imagens</a>
-      <CgMenuGridR id="gridIcon" size="30" />
-      <div className="userIcon" />
-    </div>
+    <S.HeaderContainer>
+      <S.Gmail id="gmail">Gmail</S.Gmail>
+      <S.Img id="img">Imagens</S.Img>
+      <S.GridIcon>
+        <CgMenuGridR id="gridIcon" size="30" />
+      </S.GridIcon>
+      <S.UserIcon className="userIcon" />
+    </S.HeaderContainer>
   );
 }

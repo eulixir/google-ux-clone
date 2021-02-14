@@ -36,3 +36,17 @@ export const SearchContainer = styled.div`
     box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.37);
   }
 `;
+
+export const SearchIconContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const KeyboardContainer = styled.div`
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
