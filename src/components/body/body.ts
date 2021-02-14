@@ -87,27 +87,26 @@ export const ButtonsContainer = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: 18px;
-`;
 
-export const Buttons = styled.button`
-  color: rgb(51, 51, 51);
-  height: 36px;
-  margin: 11px 4px;
-  background-color: #f8f8fa;
-  border: 1px solid #f8f8fa;
-  font-family: arial, sans-serif;
-  font-size: 14px;
-  outline: none;
-  border-radius: 4px;
-  padding: 0 16px;
-  line-height: 27px;
-  min-width: 54px;
-  text-align: center;
-  cursor: pointer;
-  user-select: none;
-
-  &:hover {
-    border: 1px solid rgb(202, 202, 202);
+  button {
+    color: rgb(51, 51, 51);
+    height: 36px;
+    margin: 11px 4px;
+    background-color: #f8f8fa;
+    border: 1px solid #f8f8fa;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    outline: none;
+    border-radius: 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    &:hover {
+      border: 1px solid rgb(202, 202, 202);
+    }
   }
 `;
 

@@ -1,23 +1,23 @@
 import React from 'react';
-import './footer.css';
+import * as S from './footer';
 
 export default function Footer() {
   return (
-    <div className="footerContainer">
-      <div className="regionContainer">Brasil</div>
-      <div className="policesContainer">
-        <div className="policesContainerOne">
-          <span>Privacidade</span>
-          <span>Termos</span>
-          <span>Configurações</span>
-        </div>
-        <div className="policesContainerTwo">
-          <span>Publicidade</span>
-          <span>Negócios</span>
-          <span>Sobre</span>
-          <span>Como funciona a pesquisa</span>
-        </div>
-      </div>
-    </div>
+    <S.FooterContainer>
+      <S.RegionContainer>Brasil</S.RegionContainer>
+      <S.PolicesContainer>
+        <S.PolicesContainerOne>
+          <S.ContainerSpan>Privacidade</S.ContainerSpan>
+          <S.ContainerSpan>Termos</S.ContainerSpan>
+          <S.ContainerSpan>Configurações</S.ContainerSpan>
+        </S.PolicesContainerOne>
+        <S.PolicesContainerTwo>
+          <S.ContainerTwoSpan>Publicidade</S.ContainerTwoSpan>
+          <S.ContainerTwoSpan>Negócios</S.ContainerTwoSpan>
+          <S.ContainerTwoSpan>Sobre</S.ContainerTwoSpan>
+          <S.ContainerTwoSpan>Como funciona a pesquisa</S.ContainerTwoSpan>
+        </S.PolicesContainerTwo>
+      </S.PolicesContainer>
+    </S.FooterContainer>
   );
 }

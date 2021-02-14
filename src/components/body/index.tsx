@@ -49,8 +49,8 @@ export default function Body() {
         </S.MicContainer>
       </S.SearchContainer>
       <S.ButtonsContainer>
-        <S.Buttons>Pesquisa Google</S.Buttons>
-        <S.Buttons>Estou com sorte</S.Buttons>
+        <button>Pesquisa Google</button>
+        <button>Estou com sorte</button>
       </S.ButtonsContainer>
       <div className="textContainer">
         <S.TextContainer>
