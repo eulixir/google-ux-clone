@@ -11,6 +11,7 @@ export default function Footer() {
           <S.ContainerSpan>Termos</S.ContainerSpan>
           <S.ContainerSpan>Configurações</S.ContainerSpan>
         </S.PolicesContainerOne>
+        <S.FooterSpace></S.FooterSpace>
         <S.PolicesContainerTwo>
           <S.ContainerTwoSpan>Publicidade</S.ContainerTwoSpan>
           <S.ContainerTwoSpan>Negócios</S.ContainerTwoSpan>

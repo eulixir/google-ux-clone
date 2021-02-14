@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
 export const FooterContainer = styled.div`
-  margin-top: 68px;
-  width: 100vw;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
   height: 10vh;
   background-color: #f2f2f2;
 `;
-
 export const RegionContainer = styled.div`
   font-family: arial, sans-serif;
   font-size: 15px;
@@ -21,8 +21,8 @@ export const RegionContainer = styled.div`
 `;
 
 export const PolicesContainer = styled.div`
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 30% 30% 40%;
 `;
 
 export const PolicesContainerOne = styled.div`
@@ -32,6 +32,9 @@ export const PolicesContainerOne = styled.div`
   color: rgba(0, 0, 0, 0.651);
   display: flex;
 `;
+export const FooterSpace = styled.div`
+  width: 100%;
+`;
 
 export const ContainerSpan = styled.span`
   margin: 15px;
@@ -39,7 +42,6 @@ export const ContainerSpan = styled.span`
 `;
 
 export const PolicesContainerTwo = styled.div`
-  width: 40vw;
   font-family: arial, sans-serif;
   font-size: 15px;
   color: rgba(0, 0, 0, 0.651);
