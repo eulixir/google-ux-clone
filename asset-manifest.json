@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/google-ux-clone/static/css/main.8ed11310.chunk.css",
-    "main.js": "/google-ux-clone/static/js/main.467739cd.chunk.js",
-    "main.js.map": "/google-ux-clone/static/js/main.467739cd.chunk.js.map",
+    "main.js": "/google-ux-clone/static/js/main.d70eaa96.chunk.js",
+    "main.js.map": "/google-ux-clone/static/js/main.d70eaa96.chunk.js.map",
     "runtime-main.js": "/google-ux-clone/static/js/runtime-main.f376eba4.js",
     "runtime-main.js.map": "/google-ux-clone/static/js/runtime-main.f376eba4.js.map",
-    "static/js/2.9906de24.chunk.js": "/google-ux-clone/static/js/2.9906de24.chunk.js",
-    "static/js/2.9906de24.chunk.js.map": "/google-ux-clone/static/js/2.9906de24.chunk.js.map",
+    "static/js/2.bb49a0b6.chunk.js": "/google-ux-clone/static/js/2.bb49a0b6.chunk.js",
+    "static/js/2.bb49a0b6.chunk.js.map": "/google-ux-clone/static/js/2.bb49a0b6.chunk.js.map",
     "index.html": "/google-ux-clone/index.html",
     "static/css/main.8ed11310.chunk.css.map": "/google-ux-clone/static/css/main.8ed11310.chunk.css.map",
-    "static/js/2.9906de24.chunk.js.LICENSE.txt": "/google-ux-clone/static/js/2.9906de24.chunk.js.LICENSE.txt",
+    "static/js/2.bb49a0b6.chunk.js.LICENSE.txt": "/google-ux-clone/static/js/2.bb49a0b6.chunk.js.LICENSE.txt",
     "static/media/Akali.ac2eb013.jpeg": "/google-ux-clone/static/media/Akali.ac2eb013.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.f376eba4.js",
-    "static/js/2.9906de24.chunk.js",
+    "static/js/2.bb49a0b6.chunk.js",
     "static/css/main.8ed11310.chunk.css",
-    "static/js/main.467739cd.chunk.js"
+    "static/js/main.d70eaa96.chunk.js"
   ]
 }
