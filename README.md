@@ -1,19 +1,19 @@
 # Google 💻
 
-## Tema do projeto
+## Deploy
 
-Um clone da landing page do Google.
+https://joaopealves.github.io/google-ux-clone/
 
-## Sobre o nosso projeto
+## Sobre o projeto
 
 <div align="justify">
-Um projeto criado em React, usando o create React. Um clone da landing page da google e com um switch para poder alterar entre dark-mode e light-mode.
+Um projeto criado em React, usando o create React App. Um clone da landing page da google e com um switch para poder alterar entre dark-mode e light-mode.
 <br>
 
 <img src="./gitDocs/gitClone.png" alt="" srcset="" style="box-shadow: 2px 2px 10px black">
 </div>
 
-<h1> Como instalar o Front end 💻</h1> 
+<h1> Como instalar o Projeto 💻</h1>
 <h2>Download do Projeto</h2>
     <img src="./gitDocs/googleLanding.png" alt="" srcset="" style="box-shadow: 2px 2px 10px black">
     <br><br>
@@ -43,9 +43,9 @@ dentro de:
 
 # -Features
 
-    Adicionar um switch para trocar entre dark-theme e ligh-theme.
+    Arrumar a responsividade
 
-# LinkedIn dos participantes
+# LinkedIn
 
 <h3>João Pedro <a target="_blank" href="https://www.spiner.com.br/wp-content/uploads/2019/02/midias-sociais-linkedin-icon.png"><img src="gitDocs/linkedin.png" height="15px"></a> <a target="_blank" href="https://github.com/joaopealves"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="15px"></a><h3>
 
