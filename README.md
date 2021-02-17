@@ -2,9 +2,9 @@
 
 ## Deploy
 
-https://joaopealves.github.io/google-ux-clone/
+Site Demo: https://joaopealves.github.io/google-ux-clone/
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lpMYAszUsGg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Video Demo: https://www.youtube.com/embed/lpMYAszUsGg
 
 ## Sobre o projeto
 
