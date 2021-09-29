@@ -34,15 +34,6 @@ Use <code>npm init -y</code> caso esteja usando o npm, se optar por utilizar o y
 
     cd google-ux-clone -> yarn start
 
-mas caso não apareça ou esteja usando uma versão antiga, adicione ao package.json
-
-dentro de:
-
-<pre>scripts: {
-    "start":"react-scripts start"
-}</pre>
-<br>
-
 # -Features
 
     Arrumar a responsividade
